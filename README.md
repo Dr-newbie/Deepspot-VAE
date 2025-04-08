@@ -10,6 +10,10 @@ The image encoder is UNI(https://github.com/mahmoodlab/UNI, the H&E foundation m
 Using VAE for reconstruction & imputation for Xenium gene expression matrix
 ![Image](https://github.com/user-attachments/assets/16221348-0797-4fdb-b1e3-ee721320efa9)
 
+# Code
+    1. python imagefeature_extraction.py
+    2. python image_encoder_extration.py
+    3. python vae_train.py
 
 # Code Flow
 ```mermaid

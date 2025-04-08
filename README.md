@@ -8,7 +8,7 @@ The image encoder is UNI(https://github.com/mahmoodlab/UNI, the H&E foundation m
 
 # VAE
 Using VAE for reconstruction & imputation for Xenium gene expression matrix
-
+![Image](https://github.com/user-attachments/assets/16221348-0797-4fdb-b1e3-ee721320efa9)
 
 
 # Code Flow

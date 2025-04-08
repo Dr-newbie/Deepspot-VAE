@@ -1,6 +1,13 @@
 # Deepspot-VAE
 Inference Xenium matrix using H&amp;E foundation model &amp; imputation matrix with VAE 
 
+# Image Encoder
+The image encoder is UNI(https://github.com/mahmoodlab/UNI, the H&E foundation model (SSL settings)) based.
+
+
+
+
+# Code Flow
 ```mermaid
 flowchart TD
     A[Slide Image] --> B[Crop Generation]

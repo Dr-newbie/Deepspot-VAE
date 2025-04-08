@@ -3,13 +3,12 @@ Inference Xenium matrix using H&amp;E foundation model &amp; imputation matrix w
 
 ```mermaid
 flowchart TD
-    A[Slide Image (.png)] --> B[Crop generation (imagefeature_extraction.py)]
-    B --> C[White Crop filtering (coord_with_white.csv)]
-    C --> D[Embedding extraction (image_encoder_extraction.py)]
-    D --> E[crop_coordinates.csv based tile inference]
-    E --> F[h5ad Expression alignment and matching]
-    F --> G[Dataset generation (Embedding + Expression)]
-    G --> H[VAE trainig (vae_train.py)]
-    H --> I[Output: vae_trained.pth, vae_training_log.csv]
+    A[Slide Image] --> B[Crop Generation]
+    B --> C[White Crop Filtering]
+    C --> D[Embedding Extraction]
+    D --> E[Tile Inference]
+    E --> F[Expression Matching]
+    F --> G[Dataset Construction]
+    G --> H[VAE Training]
+    H --> I[Output: Weights & Logs]
 ```
-

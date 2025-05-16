@@ -27,3 +27,14 @@ flowchart TD
     G --> H[VAE Training]
     H --> I[Output: Weights & Logs]
 ```
+
+# Alignment final & Image tiling
+Have to scaling our images & GT st spots! (!!!!Need Polygon of ST!!!!)
+
+
+now we using 30x30 tiles. but have to use 224x224 -> if overlapped, just think it as "biological context" (30x30 tiles also could contains 2 or more spots)
+
+
+
+
+
